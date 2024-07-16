@@ -1,0 +1,47 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  animation: marquee 10s linear infinite;
+}
+
+.carousel-item > li {
+  list-style: none;
+  width: 100%;
+  display: inline-block;
+  padding: 0 20px;
+}
+.carousel-item > li > img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background: transparent;
+  object-fit: cover;
+  /* background-position: center;
+  display: block; */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@media (max-width: 600px) {
+  .carousel-item {
+    animation: marquee 2s linear infinite;
+    width: 50px;
+  }
+  .carousel-item > li > img {
+    width: 50px;
+    height: 50px;
+  }
+}
