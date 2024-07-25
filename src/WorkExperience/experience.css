@@ -43,3 +43,16 @@
   border: 10px solid var(--secondary-color);
   width: 5%;
 }
+
+@media (max-width: 575.98px) {
+  .borderLeft {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+  .grid {
+    display: block;
+  }
+}

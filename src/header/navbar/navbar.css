@@ -3,6 +3,7 @@
   top: 0;
   background-color: var(--primary-color);
   border: 1px solid whitesmoke;
+  z-index: 1000; /* Ensures the header is above other content */
 }
 
 .navBar > ul {
@@ -30,4 +31,12 @@
 .navBar > ul > li > a:focus {
   color: var(--secondary-color);
   background-color: var(--primary-color);
+}
+@media (max-width: 575.98px) {
+  .navBar > ul {
+    gap: 1.2rem;
+  }
+  .navBar > ul > li > a {
+    font-size: small;
+  }
 }

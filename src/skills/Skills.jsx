@@ -11,12 +11,12 @@ const Skills = () => {
 
   return (
     <>
-      <div>
+      <div className="mainDiv">
         {/* <h4 className="skillsHead"> Skills</h4> */}
 
         <div className={`skills ${colorChange ? "skills-color-change" : ""}`}>
           <div>
-            <h4> Technical Skills </h4>
+            <h4> Front-End Technologies </h4>
             <ul>
               <li>
                 {" "}
@@ -35,7 +35,7 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                React JS
+                ReactJS
               </li>
               <li>
                 {" "}
@@ -50,7 +50,7 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Angular JS
+                AngularJS
               </li>
               <li>
                 {" "}
@@ -67,13 +67,13 @@ const Skills = () => {
             </ul>
           </div>
           <div>
-            <h4>Web Styling: </h4>
+            <h4>Styling Libraries </h4>
 
             <ul>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Material UI
+                MaterialUI
               </li>
               <li>
                 {" "}
@@ -97,28 +97,22 @@ const Skills = () => {
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 {/* SpringBoot (Basic) */}
-                StyledComponents
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                {/* SQL */}
-                DataVisualization: AmCharts, Recharts
+                Styled Components
               </li>
             </ul>
           </div>
           <div>
-            <h4>Tools/Practices :</h4>
+            <h4> Data visualization and Tools</h4>
             <ul>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                GitHub
+                AmCharts
               </li>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Jira
+                Recharts
               </li>
               <li>
                 {" "}
@@ -129,8 +123,35 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Build Tools: Webpack, Babel, Npm/yarn
+                Jira
               </li>
+
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                GitHub
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Webpack
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Babel
+              </li>
+
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Npm
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Tools & Libraries :</h4>
+            <ul>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
@@ -146,10 +167,26 @@ const Skills = () => {
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 Performance Optimization
               </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Cross Browser Compatibility
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Troubleshoot
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                State Management
+              </li>
             </ul>
           </div>
+
           <div>
-            <h4> Soft Skills </h4>
+            <h4> SoftSkill </h4>
             <ul>
               <li>
                 {" "}

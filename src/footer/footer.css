@@ -10,5 +10,13 @@
   background-color: var(--primary-color);
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 99vw;
+  z-index: 1000; /* Ensures the header is above other content */
+}
+
+@media (max-width: 575.98px) {
+  .contactDetails {
+    gap: 0.5rem;
+    font-size: 12px;
+  }
 }

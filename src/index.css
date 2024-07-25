@@ -1,4 +1,4 @@
-body {
+:root {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -19,7 +19,9 @@ body {
   display: block;
   text-align: center;
 }
-
+.bg {
+  width: min(calc(100%-2rem));
+}
 /* .bg {
   background: linear-gradient(
     to right,
