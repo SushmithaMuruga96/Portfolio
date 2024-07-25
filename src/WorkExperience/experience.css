@@ -1,0 +1,45 @@
+.main-div {
+  margin-bottom: 8rem;
+}
+.sub-div {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10% 5% 80%;
+  /* gap: 0.2rem 0.2rem; */
+}
+
+.grid-item > ul > li {
+  list-style: circle;
+}
+.grid-item > ul > li > a {
+  color: var(--text-color);
+}
+
+.year {
+  color: var(--secondary-color);
+}
+
+.middle-line {
+  display: block;
+  margin: 0 auto;
+}
+
+.borderLeft {
+  border-left: 5px solid var(--secondary-color);
+  height: 95%;
+  margin: 7px;
+}
+
+.circle {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  border: 10px solid var(--secondary-color);
+  width: 5%;
+}

@@ -1,0 +1,14 @@
+.contactDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  gap: 1rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

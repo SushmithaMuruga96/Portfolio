@@ -1,0 +1,41 @@
+.skills {
+  width: min(calc(100vw-2rem));
+  margin: 15px;
+}
+
+.skills > div {
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #314159;
+  transition: color 10s;
+  animation: slideInFromLeft 500ms ease-out both;
+}
+.skills-color-change > div {
+  color: var(--text-color);
+}
+
+.skills > div > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skills > div > ul > li {
+  border: 2px solid var(--secondary-color);
+  border-left: 10px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.highlight {
+  padding-right: 5px;
+  font-size: smaller;
+  color: var(--text-color);
+}
+
+.skills > div > h4 {
+  text-align: left;
+}

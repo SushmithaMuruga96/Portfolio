@@ -1,0 +1,33 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-color);
+  border: 1px solid whitesmoke;
+}
+
+.navBar > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navBar > ul > li > a {
+  /* color:var(--text-color); */
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border: none;
+  font-size: medium;
+  color: var(--text-color);
+}
+
+.navBar > ul > li > a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.navBar > ul > li > a:focus {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
