@@ -1,5 +1,5 @@
 .carousel {
-  width: 90%;
+  width: 70%;
   overflow: hidden;
   margin: 0 auto;
   position: relative;
@@ -7,7 +7,7 @@
 
 .carousel-item {
   display: flex;
-  animation: marquee 10s linear infinite;
+  animation: marquee 15s linear infinite;
   width: max-content;
 }
 
