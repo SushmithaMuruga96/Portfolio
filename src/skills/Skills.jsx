@@ -40,58 +40,27 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Redux
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Axios
+                Redux ToolKit
               </li>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 AngularJS
               </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Typescript
-              </li>
-
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                {/* SQL */}
-                REST Api
-              </li>
             </ul>
           </div>
           <div>
-            <h4>Styling Libraries </h4>
-
+            <h4> UI Styling and Libraries </h4>
             <ul>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                MaterialUI
+                MaterialUI (MUI)
               </li>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                {/* MySQL */}
                 Bootstrap
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                {/* Node JS (Basic) */}
-                jQuery
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                {/* Java (Basic) */}
-                SASS
               </li>
               <li>
                 {" "}
@@ -101,8 +70,38 @@ const Skills = () => {
               </li>
             </ul>
           </div>
+
           <div>
-            <h4> Data visualization and Tools</h4>
+            <h4> Backend-End Technologies </h4>
+            <ul>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Node.js
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Java Spring Boot
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                SQL
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Microsoft SQLServer
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                RESTful API service
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4> Data Visualization</h4>
             <ul>
               <li>
                 {" "}
@@ -117,15 +116,8 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Agile Methodology
-              </li>
-
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 Jira
               </li>
-
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
@@ -134,28 +126,37 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Webpack
+                Figma
               </li>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Babel
+                IBM Cognos Data Analytic Tool
               </li>
-
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Npm
+                Microsoft PowerBI
               </li>
             </ul>
           </div>
           <div>
-            <h4>Tools & Libraries :</h4>
+            <h4>Web Development Practices:</h4>
             <ul>
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 Debugging
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Troubleshoot
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Agile Methodology
               </li>
               <li>
                 {" "}
@@ -170,17 +171,12 @@ const Skills = () => {
               <li>
                 {" "}
                 <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Cross Browser Compatibility
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
-                Troubleshoot
-              </li>
-              <li>
-                {" "}
-                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
                 State Management
+              </li>
+              <li>
+                {" "}
+                <FontAwesomeIcon icon={faHeart} fade className="highlight" />
+                Webpack
               </li>
             </ul>
           </div>

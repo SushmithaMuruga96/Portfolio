@@ -18,14 +18,27 @@ const About = () => {
           <h4>Professional Summary</h4>
 
           <p>
-            Experienced React Developer with 5 years in creating dynamic web
-            applications. Skilled in using React.js, Redux, and API integration
-            to build responsive and efficient user interfaces. Proven ability to
-            work well in Agile teams, collaborate with designers and backend
-            engineers, and optimize application performance. Strong
-            problem-solving skills and a commitment to delivering high-quality,
-            user-friendly solutions. Looking to contribute to innovative
-            projects in a collaborative environment.
+            Frontend Developer with 5 years of experience specializing in
+            creating responsive and optimized web applications. With 3 years
+            dedicated to frontend development using JavaScript, ReactJS, and
+            AngularJS, I also bring 2 years of backend experience with Node.js
+            and Java Spring Boot, SQL. Proven track record of delivering
+            high-quality solutions in Agile environments and collaborating
+            effectively with cross-functional teams. Eager to contribute to
+            innovative projects, leveraging my strong frontend skills and
+            supplementary backend experience.
+            <br />
+            <h4>TechStack Summary</h4>
+            <ul>
+              <li>
+                Frontend-focused Developer with strong expertise in ReactJS,
+                Javascript, AngularJS.
+              </li>
+              <li>
+                Capable in backend development with Node.js and Java SpringBoot.
+              </li>
+              <li>Experience in data visualization and analytics tools</li>
+            </ul>
           </p>
 
           <h4>Links</h4>

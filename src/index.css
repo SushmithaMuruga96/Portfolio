@@ -20,7 +20,7 @@
   text-align: center;
 }
 .bg {
-  width: min(calc(100%-2rem));
+  /* width: min(calc(100%-2rem)); */
 }
 /* .bg {
   background: linear-gradient(

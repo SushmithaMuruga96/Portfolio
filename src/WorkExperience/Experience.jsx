@@ -14,28 +14,37 @@ const Experience = () => {
             <div className="borderLeft"></div>
           </div>
           <div className="grid-item">
-            <h4>Senior Front End Developer | Gravity Soft Net | Dubai, UAE</h4>
+            <h4>Software Developer | Gravity Soft Net | Dubai, UAE</h4>
             <ul>
               <li>
-                Implemented React JS with Material UI for Ecommerce web
-                application using performance optimization techniques,
-                increasing user engagement by 25%.
+                Implemented designs and developed applications using React.js,
+                MUI, and modern JavaScript frontend technologies. Developed
+                reusable components and designed features aligned with market
+                trends.
               </li>
               <li>
-                Collaborated with the backend team to integrate UI elements and
-                Integrated Rest API, reducing response time by 15%.
+                Authored responsive web design to ensure a user-friendly
+                experience across multiple devices.
               </li>
               <li>
-                Developed reusable components, increasing team productivity by
-                30%. Wrote scalable and responsive code for all devices and
-                cross-browsers.
+                Executed lazy loading, code-splitting, and other performance
+                optimization techniques to enhance web performance.
               </li>
               <li>
-                Worked independently and collaboratively within a team to
-                deliver results.
+                Collaborated with the backend team to integrate and update
+                real-time data using RESTful API services.
               </li>
               <li>
-                Provided backend support with Node JS REST API development.
+                Adhered to Agile methodology by following Sprint plans using
+                Jira.
+              </li>
+              <li>
+                Designed modular, scalable, and readable code, improving team
+                productivity and facilitating code reviews.
+              </li>
+              <li>
+                Supported backend development by building RESTful API services
+                using Node.js.
               </li>
               <li>
                 <a href="https://fazaawb.netlify.app/">
@@ -61,30 +70,36 @@ const Experience = () => {
 
           <div className="grid-item">
             <h4>
-              Front End Developer | KYYBA India Private Ltd | Chennai, India
+              Software Developer | KYYBA India Private Ltd | Chennai, India
             </h4>
             <ul>
               <li>
-                Worked with the Agile Methodology and according to Sprint plans.
+                Designed responsive and engaging web applications using ReactJS
+                and Bootstrap.
               </li>
               <li>
-                Designed a responsive and user-engaged web application for ERP
-                System with React JS and Bootstrap.
+                Identified and debugged user-facing issues by testing the
+                features to ensure a smooth user experience.
               </li>
               <li>
-                Identified user-facing issues, tested features with a testing
-                framework, and fixed bugs.
+                Developed and maintained atomic components in React,
+                facilitating consistent and reusable UI elements across the
+                application by following atomic design principles.
               </li>
               <li>
-                Applied React performance optimization techniques, resulting in
-                a 50% increase in page load speed and a 20% increase in user
-                engagement.
+                Gained hands-on experience in state management using Redux,
+                Redux Toolkit, and Context API.
               </li>
               <li>
-                Provided server-side support with Java and Spring Boot
-                technologies for API development.
+                Successfully implemented and maintained multi-language support
+                for the application using the i18n package, achieving a seamless
+                user experience across different languages and regions.
               </li>
-            </ul>{" "}
+              <li>
+                Supported backend development by building RESTful API services
+                using Java SpringBoot, SQL, and Microsoft SQL Server.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -105,23 +120,26 @@ const Experience = () => {
             </h4>
             <ul>
               <li>
-                Developed and designed Data Analytics web charts using Angular,
-                Amcharts4, and CSS for data analytics.
+                Built data analytics web charts using AngularJS, Amcharts4,
+                Recharts, and CSS.
               </li>
               <li>
-                Worked on payment page integration for an e-commerce
-                application, applied authentication and authorization workflows
-                using tokens, and identified and fixed bugs to reduce production
-                issues.
+                Implemented payment page integration, including authentication
+                and authorization workflows using JWT tokens. Identified and
+                fixed bugs, resulting in an 85% improvement in system
+                reliability and a significant reduction in production issues.
               </li>
               <li>
-                Provided support to train AI models using machine learning along
+                Collaborated with the team to gather requirements and needs to
+                implement complex functionalities.
+              </li>
+              <li>
+                Designed web pages using the latest technologies and industry
+                trends.
+              </li>
+              <li>
+                Provided support in training AI models using machine learning
                 with Python.
-              </li>
-              <li>
-                Worked with clients for requirements gathering, implementing
-                functions as per needs, and coding according to technology and
-                industry trends.
               </li>
             </ul>
           </div>

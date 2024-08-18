@@ -9,7 +9,7 @@ const Education = () => {
         <h4>Bachelor of Computer Science and Engineering</h4>
         <ul>
           <li>Anna University BIT-Campus, Trichy</li>
-          <li>2018 passed out completed with 7.0 CGPA.</li>
+          <li>Graduated in 2018 with a 7.5 CGPA</li>
         </ul>
         <h4> Higher Secondary School </h4>
         <ul>

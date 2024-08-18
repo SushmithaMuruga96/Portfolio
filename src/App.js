@@ -16,7 +16,7 @@ function App() {
       <div className="bg">
         <div className="header">
           <h2>Sushmitha Muruganantham </h2>
-          <h4>Front-End Developer | React JS Developer</h4>
+          <h4>Front-End Developer | ReactJS Developer | Software Developer </h4>
         </div>
 
         <Navbar />
