@@ -25,9 +25,9 @@ const About = () => {
           <p>
             Software Developer with 5 years of experience specializing in
             creating responsive and optimized web applications. With 4 years
-            dedicated to frontend development using JavaScript, ReactJS, and
-            Angular, I also bring 1 year of backend experience with Node.js and
-            Java Spring Boot, SQL. Proven track record of delivering
+            dedicated to frontend development using JavaScript, ReactJS,
+            Typescript and Angular, I also bring 1 year of backend experience
+            with Java Spring Boot, SQL. Proven track record of delivering
             high-quality solutions in Agile environments and collaborating
             effectively with cross-functional teams. Eager to contribute to
             innovative projects, leveraging my strong frontend skills and
@@ -38,8 +38,8 @@ const About = () => {
           <h4>TechStack Summary</h4>
           <ul>
             <li>
-              Software Developer with strong expertise in ReactJS, Javascript,
-              AngularJS.
+              Software Developer with strong expertise in ReactJS,
+              Javascript,Typescript Angular.
             </li>
             <li>
               Capable in backend development with Node.js and Java SpringBoot.
