@@ -3,6 +3,8 @@
   overflow: hidden;
   margin: 0 auto;
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .carousel-item {

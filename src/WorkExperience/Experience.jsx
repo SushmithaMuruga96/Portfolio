@@ -3,8 +3,8 @@ import "./experience.css";
 
 const Experience = () => {
   return (
-    <div className="main-div">
-      {/* <h4 className="skillsHead">Work History</h4> */}
+    <div className="main-div" id="experience">
+      <h4 className="skillsHead">Work History</h4>
 
       <div className="sub-div">
         <div className="grid">
@@ -45,16 +45,6 @@ const Experience = () => {
               <li>
                 Supported backend development by building RESTful API services
                 using Node.js.
-              </li>
-              <li>
-                <a href="https://fazaawb.netlify.app/">
-                  {" "}
-                  https://fazaawb.netlify.app/
-                </a>{" "}
-                &nbsp;&nbsp;
-                <a href="https://ayntest.netlify.app/">
-                  https://ayntest.netlify.app/
-                </a>
               </li>
             </ul>
           </div>
@@ -110,7 +100,6 @@ const Experience = () => {
           <div className="middle-line">
             <div className="circle"></div>
             <div className="borderLeft"></div>
-            <div className="circle"></div>
           </div>
 
           <div className="grid-item">
@@ -141,6 +130,41 @@ const Experience = () => {
                 Provided support in training AI models using machine learning
                 with Python.
               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="sub-div">
+        <div className="grid">
+          <div className="year grid-item"> 2014 - 2018</div>
+          <div className="middle-line">
+            <div className="circle"></div>
+            <div className="borderLeft"></div>
+          </div>
+
+          <div className="grid-item">
+            <h4>Bachelor of Computer Science and Engineering</h4>
+            <ul>
+              <li>Anna University BIT-Campus, Trichy</li>
+              <li>Graduated in 2018 with a 7.5 CGPA</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="sub-div">
+        <div className="grid">
+          <div className="year grid-item"> 2012 - 2014</div>
+          <div className="middle-line">
+            <div className="circle"></div>
+            <div className="borderLeft"></div>
+            <div className="circle"></div>
+          </div>
+
+          <div className="grid-item">
+            <h4> Higher Secondary School </h4>
+            <ul>
+              <li>Vidhya Mandir Matriculation School, Alathiyur, Tamil Nadu</li>{" "}
+              <li>Completed in 2014 with 90% academic score</li>
             </ul>
           </div>
         </div>

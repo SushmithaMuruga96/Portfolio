@@ -11,7 +11,9 @@ import location from "../assets/location.jpg";
 const Projects = () => {
   return (
     <>
-      <div className="card">
+      <h4 className="skillsHead">Domain Experience</h4>
+
+      <div className="card" id="project">
         <div className="card-item">
           <img src={eecom} alt="img"></img>
           <hr />

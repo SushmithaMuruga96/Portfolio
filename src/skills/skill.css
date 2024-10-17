@@ -1,6 +1,6 @@
 .mainDiv {
-  margin-bottom: 5rem;
   overflow: hidden;
+  /* background-color: aliceblue; */
 
   /* background-color: whitesmoke; */
 }
@@ -23,19 +23,23 @@
 
 .skills > div > ul {
   list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* justify-content: flex-start; */
+  /* align-items: center; */
   gap: 0.5rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .skills > div > ul > li {
   border: 2px solid var(--secondary-color);
-  border-left: 10px solid var(--secondary-color);
+  /* border-left: 10px solid var(--secondary-color); */
+  border-right: 10px solid var(--secondary-color);
+  text-align: center;
   border-radius: 5px;
   padding: 8px;
   font-size: 16px;
+  /* width: 200px; */
 }
 
 .highlight {
@@ -52,5 +56,8 @@
   .mainDiv {
     margin-bottom: 3rem;
     /* background-color: whitesmoke; */
+  }
+  .skills > div > ul {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -1,11 +1,10 @@
 .main-div {
-  margin-bottom: 8rem;
+  /* margin-bottom: 8rem; */
+  /* background-color: azure; */
 }
 .sub-div {
-  box-sizing: border-box;
-  padding: 10px;
-  width: 80%;
-  display: block;
+  padding: 5px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -14,13 +13,17 @@
   grid-template-columns: 10% 5% 80%;
   /* gap: 0.2rem 0.2rem; */
 }
+.grid-item > h4 {
+  padding: 0;
+  margin: 0;
+}
 
 .grid-item > ul > li {
   list-style: circle;
 }
-.grid-item > ul > li > a {
+/* .grid-item > ul > li {
   color: var(--text-color);
-}
+} */
 
 .year {
   color: var(--secondary-color);
@@ -32,16 +35,17 @@
 }
 
 .borderLeft {
-  border-left: 5px solid var(--secondary-color);
-  height: 95%;
-  margin: 7px;
+  border-left: 2px solid var(--secondary-color);
+  height: 100%;
+  /* margin: 10px; */
 }
 
 .circle {
   background-color: var(--secondary-color);
   border-radius: 50%;
-  border: 10px solid var(--secondary-color);
-  width: 5%;
+  border: 5px solid var(--secondary-color);
+  width: 2%;
+  margin-left: -3px;
 }
 
 @media (max-width: 575.98px) {

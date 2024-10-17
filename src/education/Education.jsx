@@ -4,8 +4,8 @@ import "./education.css";
 const Education = () => {
   return (
     <>
-      <div className="education">
-        {/* <h4 className="skillsHead">Education</h4> */}
+      <div className="education" id="education">
+        <h4 className="skillsHead">Education</h4>
         <h4>Bachelor of Computer Science and Engineering</h4>
         <ul>
           <li>Anna University BIT-Campus, Trichy</li>
